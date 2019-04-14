@@ -8,15 +8,15 @@ double fahrenheit ( double );
 int main (){
 
     for (int i = 0; i<= 100; i++ ){
-        cout << fahrenheit( i ) << endl;                //重点1
+        cout << fahrenheit( i ) << endl;               
     }
 
     for(int j=32;j<=212;j++){
-        cout << celsius( j ) << endl;                   //重点2
+        cout << celsius( j ) << endl;                 
     }
 }
 
-double celsius ( double a ){                            //重点3
+double celsius ( double a ){                        
     return ((a - 32)/1.8);
 }
 
